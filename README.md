@@ -5,7 +5,7 @@ A port of Sarah Drasner’s [Night Owl VS Code theme](https://github.com/sdras/n
 
 ## Installation
 
-Copy [night-owl.yml](./night-owl.yml) into your kitty config directory located at `~/.config/kitty` and then import to your `~/.config/kitty/kitty.conf` file:
+Copy [night-owl.conf](./night-owl.conf) into your kitty config directory located at `~/.config/kitty` and then import to your `~/.config/kitty/kitty.conf` file:
 
 ```apacheconf
 # colors
