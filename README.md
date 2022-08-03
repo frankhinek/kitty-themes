@@ -1,13 +1,17 @@
-# Night Owl for Kitty
-Dark color theme for kitty terminal. Inspired by @sdras theme for VS Code. () 
+# Kitty Terminal Themes
 
-A port of Sarah Drasner’s [Night Owl VS Code theme](https://github.com/sdras/night-owl-vscode-theme) for [kitty](https://sw.kovidgoyal.net/kitty/).
+Themes for [kitty](https://sw.kovidgoyal.net/kitty/) terminal:
+
+- `challenger-deep.conf`: Theme by [MaxSt](https://github.com/challenger-deep-theme/kitty).
+- `dark-night.conf`: Customized version of [YsDark](https://github.com/Ya-suke/ysdark) by Ya-suke.
+- `night-owl.conf`: A port of Sarah Drasner’s [Night Owl VS Code theme](https://github.com/sdras/night-owl-vscode-theme).
+- `tokyo-night.conf`: Theme by [Folke Lemaitre](https://github.com/folke/tokyonight.nvim/raw/main/extras/kitty_tokyonight_night.conf).
 
 ## Installation
 
-Copy [night-owl.conf](./night-owl.conf) into your kitty config directory located at `~/.config/kitty` and then import to your `~/.config/kitty/kitty.conf` file:
+Copy the `*.conf` file into your kitty config directory located at `~/.config/kitty` and then import to your `~/.config/kitty/kitty.conf` file.  For example:
 
 ```apacheconf
 # colors
-include     ~/.config/kitty/night-owl.conf
+include     ~/.config/kitty/dark-night.conf
 ```
